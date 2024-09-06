@@ -1,4 +1,4 @@
-# DIO_Nexa_Desafio_Final
+# DIO Nexa Desafio Final
  Criando um Assistente de Delivery com AWS Step Functions e Bedrock
 
 ```
@@ -62,4 +62,4 @@ Este workflow consiste nos seguintes estados:
 
 4. CompileMenu: Um estado de tarefa final que invoca uma função Lambda para compilar todas as sugestões em um menu completo. O resultado final é armazenado sob o caminho $.finalMenu, e este estado marca o fim do workflow.
 
-Você precisará substituir REGION, ACCOUNT_ID e os nomes das funções Lambda pelos valores apropriados para o seu ambiente. As funções Lambda precisariam ser configuradas para retornar as sugestões de comida, bebida e local no formato esperado e a função compile-menu deveria ser capaz de criar uma experiência de menu coesa com base nessas sugestões.
+Para replicar e testar você precisará substituir REGION, ACCOUNT_ID e os nomes das funções Lambda pelos valores apropriados para o seu ambiente. 
